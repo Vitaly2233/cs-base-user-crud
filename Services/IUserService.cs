@@ -13,6 +13,7 @@ public interface IUserService
   User[] GetAll();
 
   ErrorOr<UpdateUserResponse> UpdateUser(User user);
+  
 
   ErrorOr<Deleted> DeleteUser(Guid id);
 }
